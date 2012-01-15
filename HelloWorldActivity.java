@@ -14,7 +14,7 @@ public class HelloWorldActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         /*tv=new TextView(this);
-        tv.setText("Hello ANdroid World");
+        tv.setText("Hello Android World");
         setContentView(tv);*/
         setContentView(R.layout.main);
         tv=(TextView)findViewById(R.id.textView1);
